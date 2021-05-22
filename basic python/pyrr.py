@@ -4,7 +4,7 @@ import pdb
 def seq(n):
     for i in range(n):
         pdb.set_trace() # breakpoint
-        print(i+2)
+        print(i)
     return
 
 seq(5)
